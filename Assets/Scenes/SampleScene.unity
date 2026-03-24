@@ -262,15 +262,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2464031936667395298, guid: c2d4fda33fc050e479586705d99ba863, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.41
+      value: -0.595
       objectReference: {fileID: 0}
     - target: {fileID: 2464031936667395298, guid: c2d4fda33fc050e479586705d99ba863, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.48
+      value: -0.94
       objectReference: {fileID: 0}
     - target: {fileID: 2464031936667395298, guid: c2d4fda33fc050e479586705d99ba863, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.55
+      value: -1.511
       objectReference: {fileID: 0}
     - target: {fileID: 2464031936667395298, guid: c2d4fda33fc050e479586705d99ba863, type: 3}
       propertyPath: m_LocalRotation.w
@@ -425,16 +425,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7731240053053580642, guid: c2d4fda33fc050e479586705d99ba863, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.atime1
+      value: 13300
+      objectReference: {fileID: 0}
+    - target: {fileID: 7731240053053580642, guid: c2d4fda33fc050e479586705d99ba863, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.ctime1
-      value: 21588
+      value: 14842
       objectReference: {fileID: 0}
     - target: {fileID: 7731240053053580642, guid: c2d4fda33fc050e479586705d99ba863, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.ctime2
-      value: 28334
+      value: 22359
       objectReference: {fileID: 0}
     - target: {fileID: 7731240053053580642, guid: c2d4fda33fc050e479586705d99ba863, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.ctime3
-      value: 50115
+      value: 29491
       objectReference: {fileID: 0}
     - target: {fileID: 7731240053053580642, guid: c2d4fda33fc050e479586705d99ba863, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key0.b
@@ -941,19 +945,19 @@ Camera:
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
+  m_projectionMatrixMode: 2
   m_GateFitMode: 2
   m_FOVAxisMode: 0
   m_Iso: 200
   m_ShutterSpeed: 0.005
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 50
+  m_FocalLength: 15
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
   m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
+  m_SensorSize: {x: 24.89, y: 18.66}
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -963,7 +967,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 63.763226
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -989,13 +993,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.08475115, y: 0.54180807, z: 0.05503182, w: 0.83440566}
-  m_LocalPosition: {x: -1.988, y: 0.957, z: -16.297}
+  m_LocalRotation: {x: -0.084137365, y: 0.5325472, z: 0.05596572, w: 0.8403465}
+  m_LocalPosition: {x: -3.94, y: 0.69, z: -17.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -11.599, y: 65.994, z: 0}
+  m_LocalEulerAnglesHint: {x: -11.596, y: 64.7, z: 0.26}
 --- !u!1 &1118411978
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,11 +1059,11 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.8726415, g: 1, b: 0.9973706, a: 1}
+  m_Color: {r: 1, g: 0.8714221, b: 0.5424528, a: 1}
   m_Intensity: 2.57
-  m_Range: 10.73
-  m_SpotAngle: 175
-  m_InnerSpotAngle: 21.80208
+  m_Range: 9.45
+  m_SpotAngle: 134.8
+  m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
