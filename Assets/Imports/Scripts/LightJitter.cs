@@ -30,8 +30,11 @@ public class LightJitter : MonoBehaviour
 
     private void HandleLightAttenuation()
     {
+    
+		// Get random intensity value
         float currentLightIntensity = _lightDefaultIntensity + Random.Range(0.2f, _lightDefaultIntensity);
 
+        // Lerp to intensity value, repeat
         if (_light.intensity != currentLightIntensity)
         {
             _light.intensity = Mathf.Lerp(_light.intensity, currentLightIntensity,
@@ -40,6 +43,7 @@ public class LightJitter : MonoBehaviour
     }
     
     
+    // Lerp between two positions, only get a new position after lerping back from origin point
     private void HandleJitterPositioning()
     {
         if (positionIndex == -1)
